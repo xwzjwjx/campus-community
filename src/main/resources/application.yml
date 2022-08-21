@@ -67,9 +67,3 @@ mybatis:
 community:
   path:
     domain: http://localhost:8888
-tecent:
-  appId: 1311775631
-  secretId: AKIDeARSFn57tQkpeCVZNvDG6j6nFRN3Yqtg
-  secretKey: by79D3dy4wd7LJ3YnFqPnwqWx85nFUVG
-  region: ap-guangzhou
-  photoBucket: community-1311775631
