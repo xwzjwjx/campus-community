@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d02164e6-0825-44ae-89de-51fb1323fc3e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\repository" />
+        <option name="mavenHome" value="D:\maven\apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="2CDBofRwy2JxDCEvrD5cmEDsgil" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.6218391" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Demo-Study\Community\src\main\resources\static" />
+      <recent name="D:\Demo-Study\Community\src\main\resources\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Demo-Study\Community\src\main\resources\templates" />
+      <recent name="D:\Demo-Study\Community\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CommunityApplication">
+    <configuration name="QuartzTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wjx.community.QuartzTest" />
+      <module name="Community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wjx.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScheduledExecutorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wjx.community.ScheduledExecutorTest" />
+      <module name="Community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wjx.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScheduledExecutorTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wjx.community.ScheduledExecutorTest1" />
+      <module name="Community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wjx.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MailTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wjx.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wjx.community" />
+      <option name="MAIN_CLASS_NAME" value="com.wjx.community.MailTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommunityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wjx.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wjx.community.CommunityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CommunityApplication" />
+        <item itemvalue="Application.QuartzTest" />
+        <item itemvalue="JUnit.MailTest.test01" />
+        <item itemvalue="Application.ScheduledExecutorTest1" />
+        <item itemvalue="Application.ScheduledExecutorTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d02164e6-0825-44ae-89de-51fb1323fc3e" name="Default Changelist" comment="" />
+      <created>1658327453346</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658327453346</updated>
+      <workItem from="1658327454493" duration="1232000" />
+      <workItem from="1658375413723" duration="28000" />
+      <workItem from="1658386990031" duration="8207000" />
+      <workItem from="1658412092967" duration="3601000" />
+      <workItem from="1658540929676" duration="3973000" />
+      <workItem from="1658553418983" duration="141000" />
+      <workItem from="1658564916718" duration="6583000" />
+      <workItem from="1658581067548" duration="825000" />
+      <workItem from="1658645124074" duration="8990000" />
+      <workItem from="1658819297721" duration="8813000" />
+      <workItem from="1658828483944" duration="396000" />
+      <workItem from="1658842751199" duration="6099000" />
+      <workItem from="1658887490861" duration="1810000" />
+      <workItem from="1658889325319" duration="6966000" />
+      <workItem from="1658927427013" duration="7000" />
+      <workItem from="1658975998481" duration="6231000" />
+      <workItem from="1658990979045" duration="28000" />
+      <workItem from="1658998932839" duration="5522000" />
+      <workItem from="1659014168545" duration="12224000" />
+      <workItem from="1659065227950" duration="829000" />
+      <workItem from="1659066343156" duration="600000" />
+      <workItem from="1659079949148" duration="17000" />
+      <workItem from="1659085686575" duration="5037000" />
+      <workItem from="1659100336562" duration="7632000" />
+      <workItem from="1659166061045" duration="7159000" />
+      <workItem from="1659186639577" duration="4203000" />
+      <workItem from="1659240513566" duration="6000" />
+      <workItem from="1659254646669" duration="9028000" />
+      <workItem from="1659359124691" duration="7614000" />
+      <workItem from="1659422801122" duration="9906000" />
+      <workItem from="1659513492672" duration="6016000" />
+      <workItem from="1659533366019" duration="7814000" />
+      <workItem from="1659581154951" duration="5266000" />
+      <workItem from="1659595722608" duration="2002000" />
+      <workItem from="1659860864133" duration="4416000" />
+      <workItem from="1660009903944" duration="11000" />
+      <workItem from="1660206601375" duration="3593000" />
+      <workItem from="1660289765705" duration="1137000" />
+      <workItem from="1660363503785" duration="4000" />
+      <workItem from="1660465216134" duration="2686000" />
+      <workItem from="1660478530771" duration="4000" />
+      <workItem from="1660549116578" duration="3787000" />
+      <workItem from="1660727554080" duration="36000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wjx/community/aop/LoginInterceptorHandler.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wjx/community/controller/LoginController.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wjx/community/controller/HomeController.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wjx/community/aop/LoginInterceptorHandler.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wjx/community/controller/DiscussPostController.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wjx/community/controller/LikeController.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
