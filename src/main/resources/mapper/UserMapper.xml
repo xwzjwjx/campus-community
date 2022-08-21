@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.wjx.community.dao.UserMapper">
+
+    <sql id="selectFields">
+        id,username, password, salt, email, type, status, activation_code, header_url, create_time
+    </sql>
+
+    <sql id="insertFields">
+        (username, password, salt, email, type, status, activation_code, header_url, create_time)
+    </sql>
+
+    <insert id="insertUser" parameterType="User" keyProperty="id">
+        insert into user
+            <include refid="insertFields"/>
+        values (#{username},#{password},#{salt},#{email},#{type},#{status},#{activationCode},#{headerUrl},now())
+    </insert>
+    <update id="updateStatus">
+        update user set status = #{status} where id = #{userId}
+    </update>
+    <!--密码重置-->
+    <update id="resetPwd">
+        update user set password = #{password} where email = #{email}
+    </update>
+    <delete id="deleteById">
+        delete from user where id = #{id}
+    </delete>
+
+
+    <select id="selectUserByName" resultType="User">
+        select
+            <include refid="selectFields"/>
+        from
+             user
+        where username = #{username}
+    </select>
+    <select id="selectUserByEmail" resultType="User">
+        select
+            <include refid="selectFields"/>
+        from
+            user
+        where email = #{email}
+    </select>
+    <select id="selectById" resultType="User">
+        select
+            <include refid="selectFields"/>
+        from user
+        where id = #{id}
+    </select>
+    <select id="findUserById" resultType="User">
+        select
+            <include refid="selectFields"/>
+        from user
+        where id = #{userId}
+    </select>
+    <select id="getUserByName" resultType="com.wjx.community.entity.User">
+
+    </select>
+</mapper>

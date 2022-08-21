@@ -1,0 +1,72 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /community
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1602
+    url: jdbc:mysql://localhost:3306/community?useUnicode=true&useSSL=false&characterEncoding=UTF-8&serverTimeZone=UTC&allowPublicKeyRetrieval=true
+  #发送邮件邮箱相关配置
+  mail:
+    #smtp服务器域名
+    host: smtp.163.com
+    #编码集
+    default-encoding: UTF-8
+    #邮箱用户名
+    username: xwzjwjx@163.com
+    #授权码(不是邮箱密码)
+    password: NUIEBITQKINTVJNW
+    #协议：SMTPs
+    protocol: smtps
+    #详细配置
+    properties:
+      mail:
+        smtp:
+          # 设置是否需要认证,如果为true,那么用户名和密码就必须的,
+          # 如果设置false,可以不设置用户名和密码
+          # (前提要知道对接的平台是否支持无密码进行访问的)
+          auth: true
+          # STARTTLS[1]  是对纯文本通信协议的扩展。
+          # 它提供一种方式将纯文本连接升级为加密连接（TLS或SSL）
+          # 而不是另外使用一个端口作加密通信。
+          starttls:
+            enable: true
+            required: true
+  thymeleaf:
+    #清除缓存，实现热部署
+    cache: false
+    prefix: classpath:/templates/ #页面映射路径
+    suffix: .html #试图后的后缀
+    mode: LEGACYHTML5 #模板模式
+    encoding: utf-8 #模板编码
+    servlet:
+      content-type: text/html
+  #redis配置
+  redis:
+    port: 6379
+    host: 127.0.0.1
+    password: 123456
+  #kafka配置
+  kafka:
+    bootstrap-servers: 127.0.0.1:9092
+    consumer:
+      group-id: community-consumer-group
+      enable-auto-commit: true
+      auto-commit-interval: 30000
+#mybatis配置
+mybatis:
+  type-aliases-package: com.wjx.community.entity
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    use-generated-keys: true
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#常量
+community:
+  path:
+    domain: http://localhost:8888
+
+
+
